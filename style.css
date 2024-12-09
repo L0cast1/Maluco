@@ -59,11 +59,16 @@ p {
 
 .comprac {
 	color: #463400;
-	font-size: 20px;
 	background: #febe01;
 	border-radius: 4px;
-	padding: 10px;
-	text-decoration: none;
+	display: inline-block; /* Garante que o botão seja tratado como um bloco em linha */
+        width: 90%; /* Ajusta o botão para ocupar 90% da largura do contêiner */
+        max-width: 300px; /* Limita a largura máxima para evitar esticar muito */
+        margin: 10px auto; /* Centraliza o botão e adiciona espaçamento */
+       text-align: center; /* Centraliza o texto dentro do botão */
+       padding: 10px;
+	box-sizing: border-box; /* Inclui o padding na largura total */
+       font-size: 18px; /* Ajusta o tamanho do texto para telas menores */
 }
 
 .comprac:hover {
