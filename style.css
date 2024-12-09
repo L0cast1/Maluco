@@ -139,6 +139,9 @@ a {
   
   .bolo{
     flex-direction: column;
+    align-itens:center;
+    margin:0 auto:
+    padding:0;
     
   }
   .boto{
